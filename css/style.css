@@ -1,0 +1,192 @@
+body{
+margin: 0;
+font-family: "Lato",sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #000000;
+text-align: left;
+background-color: #f5ecec;
+}
+
+header img {
+    width: 100%;
+    max-height: 450px;
+    display: block;
+}
+.titulo {
+    font-size: 3em; /* Puedes ajustar el tamaño según tus necesidades */
+    text-align: center;
+    color: #080808; /* Puedes cambiar el color del texto */
+    /* Agregar cualquier otro estilo que desees */
+  }
+  
+.title-bar {
+    background-color: #333; /* Color de fondo de la barra de título */
+    color: white; /* Color del texto en la barra de título */
+    padding: 10px; /* Espaciado interno para separar el contenido de la barra */
+}
+
+.title-bar h1 {
+    margin: 0; /* Eliminar el margen predeterminado del h1 */
+}
+.promo {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+article {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    flex: 0 1 calc(25% - 20px);
+    display: flex;
+    flex-direction: column;
+}
+
+article img {
+    max-width: 100%;
+    max-height: 200px; /* Establece la altura máxima que deseas */
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.fa-brands {
+    color: black;
+    text-align: right;
+    
+}
+
+.telefono{
+    color: blue;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+
+}
+
+.social-icons i {
+    font-size: 24px; /* Ajusta el tamaño según tus necesidades */
+    margin-top: 15px;
+    margin-right: 10px; /* Ajusta el espacio entre los iconos según tus necesidades */
+    color: black; /* Ajusta el color según tus necesidades */
+}
+
+.footer {
+    font-weight: bold;
+    position: relative;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #1f1e1e; /* Puedes cambiar el color de fondo según tu diseño */
+    padding: 10px 0;
+}
+
+.about-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.about-us {
+    flex: 1; /* Ocupa el espacio disponible */
+    max-width: 380px; /* Ajusta según sea necesario */
+    padding: 20px; /* Ajusta según sea necesario */
+    background-color: #9da09f; /* Ajusta según sea necesario */
+    box-shadow: 0 0 10px rgba(238, 236, 236, 0.1); /* Ajusta según sea necesario */
+    margin: 10px; /* Ajusta según sea necesario */
+}
+
+.contact {
+    flex: 1; /* Ocupa el espacio disponible */
+    max-width: 380px; /* Ajusta según sea necesario */
+    padding: 20px; /* Ajusta según sea necesario */
+    background-color: #9da09f; /* Ajusta según sea necesario */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Ajusta según sea necesario */
+    margin: 10px; /* Ajusta según sea necesario */
+}
+
+.publicitarios {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.pedido-public {
+    flex: 1;
+    width: 63%;
+    height: 250px;
+    padding: 20px;
+    background-color: #9da09f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: left;
+}
+
+.publicitarios-img {
+    max-width: 15%;
+    max-height: 210px;
+    height: auto;
+    border-radius: 8px;
+    position: relative;
+    left: 700px;
+    right: 10px; /* Ajusta la posición a la derecha según sea necesario */
+    top: -22px; /* Ajusta la posición verticalmente según sea necesario */
+    transform: translateY(-50%); /* Centra verticalmente la imagen */
+}
+
+.clientes-satisfechos {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.clientes-satisfechos .content {
+    flex: 1;
+    width: 63%;
+    padding: 20px;
+    background-color: #9da09f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    display: flex;
+    justify-content: space-between; /* Alinea el contenido al final del contenedor */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+
+.clientes-satisfechos p {
+    font-size: 1.2em; /* Ajusta el tamaño según tus preferencias */
+    color: #555; /* Cambia el color del texto según tus preferencias */
+    margin-bottom: 20px; /* Ajusta el espacio entre el título y el párrafo */
+}
+
+.clientes-satisfechos .imagen-cliente {
+    width: 55%; /* Ajusta el ancho de la imagen según sea necesario */
+
+}
+
+.clientes-satisfechos .imagen-cliente img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.clientes-satisfechos .content h1 {
+    font-size: 2em;
+    color: #000000;
+    text-align: left;
+    width: 70%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
